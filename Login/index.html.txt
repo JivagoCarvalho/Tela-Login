@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Menu de Navegação Vertical</title>
+  <link rel="stylesheet" href="css/styleII.css">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <section class="container">
+    <nav class="vnav">
+      <ul class="vnav-menu">
+        <li>
+          <a href="#" class="vnav-item">
+            <i class="icon-friends"></i>
+            Amigos
+            <span class="vnav-counter">4</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="vnav-item">
+            <i class="icon-video"></i>
+            Vídeos
+            <span class="vnav-counter">8</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="#" class="vnav-item">
+            <i class="icon-photo"></i>
+            Fotos
+            <span class="vnav-counter">15</span>
+          </a>
+          <ul class="vnav-subnav">
+            <li><a href="#">Família <span class="vnav-counter">16</span></a></li>
+            <li><a href="#">Férias <span class="vnav-counter">23</span></a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="vnav-item">
+            <i class="icon-podcast"></i>
+            Podcasts
+            <span class="vnav-counter">42</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+</body>
+</html>
